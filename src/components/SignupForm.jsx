@@ -1,9 +1,3 @@
-import accenture from '../img/accenture.svg';
-import airbnb from '../img/airbnb.svg';
-import sky from '../img/sky.svg';
-import react from '../img/react.svg';
-import googleBTN from '../img/google-btn.svg';
-
 const Input = ({name, type, placeholder, value}) => (
     <input 
         type={type}
@@ -32,10 +26,10 @@ const SignupForm = () => {
                     <div className="h-[1px] w-3/12 md:w-4/12 bg-primary-100" />
                 </div>
                 <div className="w-full md:w-10/12 m-auto flex flex-wrap justify-evenly items-center">
-                    <img src={accenture} alt="Accenture" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
-                    <img src={react} alt="React" className="max-h-12 md:max-h-20 basis-1/2 my-2 md:my-6" />
-                    <img src={airbnb} alt="AirBnB" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
-                    <img src={sky} alt="Sky" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
+                    <img src="/img/accenture.svg" alt="Accenture" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
+                    <img src="/img/react.svg" alt="React" className="max-h-12 md:max-h-20 basis-1/2 my-2 md:my-6" />
+                    <img src="/img/airbnb.svg" alt="AirBnB" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
+                    <img src="/img/sky.svg" alt="Sky" className="max-h-6 md:max-h-10 basis-1/2 my-2 md:my-6" />
                 </div>
             </div>
 
@@ -61,7 +55,7 @@ const SignupForm = () => {
                         <p className="text-center my-3 md:my-5 font-medium text-primary-200">OR</p>
 
                         <div className="cursor-pointer w-full md:w-[50%] m-auto">
-                           <img src={googleBTN} className="w-full" /> 
+                           <img src="/img/google-btn.svg" className="w-full" /> 
                         </div>
 
                         <div className="h-[1px] w-full bg-[#8989A2] my-6" />

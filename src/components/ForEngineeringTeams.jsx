@@ -1,5 +1,3 @@
-import stack from '../img/engnr-team.svg'
-
 const ForEngineeringTeams = () => {
     return ( 
         <div className="container my-10 md:my-24">
@@ -27,7 +25,7 @@ const ForEngineeringTeams = () => {
                 </div>
 
                 <div className="w-full md:w-6/12">
-                    <img src={stack} alt="For Product Teams" className="m-auto md:m-0 md:w-[100%]"/>
+                    <img src="/img/engnr-team.svg" alt="For Product Teams" className="m-auto md:m-0 md:w-[100%]"/>
                 </div>
             </div>
         </div>

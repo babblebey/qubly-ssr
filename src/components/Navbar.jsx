@@ -1,8 +1,6 @@
 import { useState } from "react";
-import logo from '../img/logo.svg';
 
 const Navbar = () => {
-
     const [toggleMenu, setToggleMenu] = useState(false);
 
     const handleToggle = () => {
@@ -12,7 +10,7 @@ const Navbar = () => {
     return ( 
         <div className="container">
             <div className={`flex justify-between items-center p-4 md:px-10 ${toggleMenu && 'bg-white shadow-sm'}`}>
-                <img src={logo} alt="Qubly" className="w-[38px] md:w-[48px]"/>
+                <img src="/img/logo.svg" alt="Qubly" className="w-[38px] md:w-[48px]"/>
                 
                 <div className="hidden md:block">
                     <ul className="flex flex-col sm:flex-row items-center">

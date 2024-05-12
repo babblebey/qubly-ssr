@@ -1,5 +1,3 @@
-import heroImg from '../img/hero.svg';
-
 const Hero = () => {
     return ( 
         <div className="container flex flex-col md:flex-row items-center px-4 md:px-10 pb-10 md:pb-36 mt-10 mb-28">
@@ -30,7 +28,7 @@ const Hero = () => {
             </div>
 
             <div className="w-full lg:w-6/12">
-                <img src={heroImg} alt="Hero" className="w-full"/>
+                <img src="/img/hero.svg" alt="Hero" className="w-full"/>
             </div>
         </div>
      );

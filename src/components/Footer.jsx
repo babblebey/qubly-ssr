@@ -1,23 +1,18 @@
-import logo from '../img/logo2.svg';
-import facebookIcon from '../icon/facebook.svg';
-import twitterIcon from '../icon/twitter.svg';
-import instagramIcon from '../icon/instagram.svg';
-
 const Footer = () => {
     return ( 
         <div className="container my-10 md:my-24 px-4 md:px-10 pt-10 pb-5">
             <div className="flex flex-col-reverse md:flex-row justify-start items-start">
                 <div className="w-full md:w-3/12 pr-5">
-                    <img src={logo} alt="Qubly" className="mb-2 mx-auto md:mx-0 w-[70px]" />
+                    <img src="/img/logo.svg" alt="Qubly" className="mb-2 mx-auto md:mx-0 w-[70px]" />
                     <p className="text-sm text-primary-200 font-medium text-center md:text-left">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim
                     </p>
 
                     {/* Social Icons */}
                     <div className="flex mt-3 justify-center md:justify-start items-center">
-                        <img src={facebookIcon} alt="Facebook" className="w-6 mx-4 md:mx-0 md:mr-4 cursor-pointer" />
-                        <img src={twitterIcon} alt="Twitter" className="w-6 mx-4 md:mx-0 md:mr-4 cursor-pointer" />
-                        <img src={instagramIcon} alt="Instagram" className="w-6 mx-4 md:mx-0 md:mr-4 cursor-pointer" />
+                        <img src="/icon/facebook.svg" alt="Facebook" className="w-6 mx-4 md:mx-0 md:mr-4 cursor-pointer" />
+                        <img src="/icon/twitter.svg" alt="Twitter" className="w-6 mx-4 md:mx-0 md:mr-4 cursor-pointer" />
+                        <img src="/icon/instagram.svg" alt="Instagram" className="w-6 mx-4 md:mx-0 md:mr-4 cursor-pointer" />
                     </div>
                 </div>
                 <div className="hidden md:block w-2/12">
